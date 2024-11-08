@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(35, 69, 181);
+  }
+  
+  
+  
+  
+  button{
+    background-color: rgb(100, 165, 234);
+    padding: 10px;
+    font-family: ar;
+    border: none;
+    
+  }
+  
+  header{
+    background: rgb(68, 147, 238);
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  select{
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  input{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
