@@ -1,0 +1,33 @@
+// This function asigns strings to variables so we can use them in the webpage
+function updatescreen(){
+  var Temperature = document.getElementById("Temperature").value;
+  var vactionSpot = document.getElementById("vacationSpot").value;
+
+
+// console.log(Temperature);
+// console.log(vactionSpot);
+
+
+
+// The if statements allow the webpage to change bases off of what your input is
+if (Temperature > 59.5 && vactionSpot == "Beach"){
+document.getElementById("feedback").innerHTML = "St. Barts" ; //this is the feedback
+}
+else if(Temperature < 59.5 && vactionSpot == "Beach"){
+document.getElementById("feedback").innerHTML = "Cape Horn, Chile";
+}
+else if(Temperature > 59.5 && vactionSpot == "Montains"){ 
+document.getElementById("feedback").innerHTML = "Yellow Stone National park, in the summer";
+}
+else if(Temperature < 59.5 && vactionSpot == "Montains"){ 
+document.getElementById("feedback").innerHTML = "Aspen, in the winter";
+}
+
+
+}
+// This function congratulats the user and serves as an easter egg for those who dive into the code
+function sayHavefun(quote) {
+  var greeting ="Hello, "+quote+ ", have fun!";
+  console.log(greeting);
+  }
+  sayHavefun ("Great choice");
